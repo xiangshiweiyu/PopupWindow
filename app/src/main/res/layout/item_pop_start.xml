@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_beauty"
+        android:layout_toEndOf="@+id/iv_beauty"
+        android:src="@mipmap/ic_right" />
+
+    <ImageView
+        android:id="@+id/iv_beauty"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="#669"
+        android:src="@mipmap/pic_5" />
+</RelativeLayout>

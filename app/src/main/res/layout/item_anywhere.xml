@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_top" />
+
+    <LinearLayout
+        android:id="@+id/ll_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_three"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-4dp"
+        android:background="@drawable/shape_qq"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="删除"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#666666" />
+
+        <TextView
+            android:id="@+id/tv_be_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="置顶"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

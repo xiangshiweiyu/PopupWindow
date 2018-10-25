@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_pic_select"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_pic_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="#ffffff"
+            android:text="相  册"
+            android:textColor="#3c3c3c"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_pic_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="#ffffff"
+            android:text="拍  照"
+            android:textColor="#3c3c3c"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_pic_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="#ffffff"
+            android:text="取  消"
+            android:textColor="#3c3c3c"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
