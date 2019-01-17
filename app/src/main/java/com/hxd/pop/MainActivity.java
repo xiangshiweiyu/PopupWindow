@@ -250,8 +250,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onBackPressed() {
-        if (myPop.isShowing()) {
+        if (myPop != null) {
             myPop.dismiss();
+            myPop = null;
         } else {
             super.onBackPressed();
         }
@@ -266,7 +267,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             views.remove(picView03);
             views.remove(picView04);
         }
-        if (myPop.isShowing()) {
+        if (myPop != null) {
             myPop.dismiss();
         }
     }
